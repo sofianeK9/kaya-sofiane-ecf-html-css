@@ -1,0 +1,303 @@
+html,
+body {
+    background-color: rgb(99, 150, 99);
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    text-align: justify;
+}
+
+.menu-content {
+    height: 50px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: rgb(160, 201, 126);
+    width: 100%;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.menu-content a {
+    color: rgb(5, 26, 5);
+    font-weight: bold;
+    margin: 15px;
+    font-size: x-large;
+    text-decoration: none;
+    z-index: 100;
+}
+
+.logo {
+    filter: brightness(0) invert(1);
+}
+
+button a {
+    text-decoration: none;
+    color: black;
+    border-radius: 1.5rem;
+}
+
+.entete {
+    margin-top: 50px;
+    justify-content: center;
+    display: flex;
+}
+
+.contenu button {
+    padding: 2px;
+    border-radius: 15rem;
+    background-color: #70af7a;
+}
+
+.contenu button:hover {
+    background-color: transparent;
+}
+
+.contenu {
+    margin-top: 0px;
+    width: 50%;
+    color: white;
+    font-size: x-large;
+}
+
+.contenu h1,
+p,
+button {
+    margin-top: 90px;
+}
+
+.image {
+    width: 70%;
+}
+
+.image img {
+    width: 100%;
+}
+
+.main-services {
+    display: flex;
+    color: white;
+    font-size: x-large;
+}
+
+.service {
+    width: 50%;
+}
+
+.service button {
+    text-decoration: none;
+    padding: 2px;
+    border-radius: 15rem;
+    background-color: #70af7a;
+}
+
+.image-lutin {
+    width: 100%;
+}
+
+h2 {
+    color: white;
+}
+
+.contenus {
+    color: white;
+    display: flex;
+}
+
+.contenus p {
+    margin-top: -5px;
+}
+
+.texte {
+    width: 55%;
+    border-right: 1px solid #ccc;
+    padding-right: 20px;
+}
+
+.video video {
+    margin-left: 200px;
+    width: 60%;
+}
+
+.video p {
+    margin-left: 200px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contain {
+    width: 23%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.contain a {
+    filter: brightness(0) invert(1);
+}
+
+.contain-container4 {
+    margin-top: -80px;
+    color: white;
+}
+
+.contain a {
+    filter: brightness(0) invert(1);
+}
+
+.maps {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.maps iframe {
+    width: auto;
+    height: auto;
+}
+
+.maps {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+@media (max-width: 1300px) {
+    .texte {
+        border-right: none;
+    }
+    .contenu {
+        text-align: center;
+    }
+    .contenu a {
+        margin-top: 8px;
+    }
+    .entete {
+        flex-wrap: wrap;
+    }
+    .image {
+        margin-top: 50px;
+    }
+    h2 {
+        text-align: center;
+    }
+    .main-services {
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+    }
+    .service {
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .image-lutin {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .contenus {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .video {
+        margin-left: -204px;
+        width: 800px;
+    }
+}
+
+@media (max-width: 900px) {
+    .footer-container {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .contain {
+        width: 100%;
+    }
+    .maps {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .entete {
+        flex-wrap: wrap;
+        margin-left: -31px;
+    }
+    .main-services {
+        margin-left: -2px;
+    }
+    .contenu {
+        margin-left: 94px;
+    }
+    .image img {
+        width: 350px;
+        margin-left: 40px;
+    }
+    .service {
+        width: 100px;
+        margin-left: -100px;
+    }
+    #margin__top {
+        margin-top: -190px;
+    }
+    #margin__top2 {
+        margin-top: -90px;
+    }
+    footer {
+        margin-top: -80px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .entete {
+        flex-wrap: wrap;
+        margin-left: -31px;
+    }
+    .main-services {
+        margin-left: -2px;
+    }
+    .contenu {
+        margin-left: 94px;
+    }
+    .image img {
+        width: 350px;
+        margin-left: 40px;
+    }
+    .service {
+        width: 100px;
+        margin-left: -100px;
+    }
+    #margin__top {
+        margin-top: -190px;
+    }
+    #margin__top2 {
+        margin-top: -90px;
+    }
+    footer {
+        margin-top: -80px;
+    }
+}

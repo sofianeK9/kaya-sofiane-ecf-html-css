@@ -1,0 +1,252 @@
+.menu-content {
+    height: 50px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: rgb(117, 161, 80);
+    width: 100%;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.menu a {
+    color: white;
+    margin: 15px;
+    font-size: x-large;
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    filter: brightness(0) invert(1);
+}
+
+button {
+    text-decoration: none;
+    margin-top: -50px;
+    padding: 8px;
+    border-radius: 15rem;
+    background-color: #1d7a2d;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+button a:hover {
+    background-color: transparent;
+}
+
+.bloc1 {
+    margin-top: 100px;
+    color: white;
+}
+
+.bloc2 {
+    margin-top: 200px;
+}
+
+.bloc3 {
+    color: white;
+}
+
+#rouge {
+    position: absolute;
+    top: 330px;
+    left: 450px;
+    z-index: 3;
+}
+
+#orange {
+    position: relative;
+    z-index: 1;
+    top: -339px;
+    left: 299px;
+}
+
+#violet {
+    position: relative;
+    z-index: 2;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100wv;
+}
+
+.item1 {
+    border: 4px solid black;
+    padding: 8px;
+    margin: 8px;
+    text-align: center;
+}
+
+.item2 {
+    border: 4px solid black;
+    padding: 8px;
+    margin: 8px;
+    text-align: center;
+}
+
+.item3 {
+    border: 4px solid black;
+    padding: 8px;
+    margin: 8px;
+    text-align: center;
+}
+
+.item4 {
+    border: 4px solid black;
+    padding: 8px;
+    margin: 8px;
+    text-align: center;
+}
+
+.item5 {
+    border: 4px solid black;
+    padding: 8px;
+    margin: 8px;
+    text-align: center;
+}
+
+.item6 {
+    border: 4px solid black;
+    padding: 8px;
+    margin: 8px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.contain a {
+    filter: brightness(0) invert(1);
+}
+
+.contain-container4 {
+    margin-top: -80px;
+    color: white;
+}
+
+.contain a {
+    filter: brightness(0) invert(1);
+}
+
+img {
+    max-width: 100%;
+}
+
+.maps {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.maps iframe {
+    width: auto;
+    height: auto;
+}
+
+.maps {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+@media (min-width: 1000px) and (max-width: 1400px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+    }
+}
+
+@media (max-width: 990px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .footer-container {
+        flex-wrap: wrap;
+        width: 90%;
+    }
+    .contain {
+        width: 100%;
+        align-items: center;
+    }
+    #rouge {
+        position: absolute;
+        top: 400px;
+        left: 140px;
+    }
+    #orange {
+        position: absolute;
+        top: 300px;
+        left: 70px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .maps {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+    }
+    #rouge {
+        position: absolute;
+        top: 400px;
+        left: 140px;
+    }
+    #orange {
+        position: absolute;
+        top: 300px;
+        left: 40px;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .maps {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    #footer {
+        text-align: center;
+    }
+    .maps {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+    }
+}

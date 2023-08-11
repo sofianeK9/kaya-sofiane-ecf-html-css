@@ -1,0 +1,162 @@
+html,
+body {
+  background-image: url(/images/u8of7Nw.jpeg);
+}
+
+.menu-content {
+  height: 50px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: rgb(117, 161, 80);
+  width: 100%;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.menu a {
+  color: rgb(5, 26, 5);
+  font-weight: bold;
+  margin: 15px;
+  font-size: x-large;
+  text-decoration: none;
+  z-index: 100;
+}
+
+.logo {
+  filter: brightness(0) invert(1);
+}
+
+.texte {
+  margin-top: 80px;
+  color: white;
+}
+
+button {
+  margin-top: -50px;
+  padding: 8px;
+  border-radius: 15rem;
+  background-color: #4b8554;
+  color: white;
+}
+button a {
+  text-decoration: none;
+  color: white;
+}
+
+button:hover {
+  background-color: transparent;
+}
+
+.formulaire {
+  color: white;
+  margin-top: 10px;
+  max-width: 400px;
+  padding: 20px;
+  border: 1px solid #030303f8;
+  border-radius: 5px;
+  /* margin-left: 400px; */
+}
+legend {
+  font-size: 24px;
+  font-weight: bold;
+}
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+input[type="text"],
+textarea {
+  width: 70%;
+  padding: 10px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contain {
+  width: 23%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.contain a {
+  filter: brightness(0) invert(1);
+}
+.contain-container4 {
+  margin-top: -80px;
+  color: white;
+}
+
+.maps {
+  width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.maps iframe {
+  width: auto;
+  height: auto;
+}
+
+.maps {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+@media (min-width: 830px) and (max-width: 1200px) {
+  .formulaire {
+    margin: auto;
+  }
+}
+
+@media (max-width: 900px) {
+  .contenu a {
+    margin-top: 8px;
+  }
+  .videos p {
+    margin-left: -50px;
+  }
+  .footer-container {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .contain {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .maps {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+  }
+}
